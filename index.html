@@ -1,12 +1,193 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <!-- Bootstrap CSS -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="imagenes/Dove.png">
+  <link rel="script" src="scripts.js">
+  <title>Inicio | Nazland</title>
 </head>
+
 <body>
-    
+
+  <!-- header -->
+  <header role="banner">
+    <a id="skip-navigation" class="sr-only sr-only-focusable" href="#cuerpo">Ir al contenido</a>
+    <p>Aquí irá el logo.</p>
+  </header>
+
+  <!-- barra de navegación -->
+  <div role="menubar" class="pos-f-t">
+    <nav id="nav" role="navigation" class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- botón menú -->
+      <img src="/imagenes/DoveGray.png" width="30" alt="" class="navbar-brand">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Menú">
+        <span role="none" class="navbar-toggler-icon"></span>
+      </button>
+      <!-- links colapsables-->
+      <div role="menu" class="collapse navbar-collapse bg-dark p-1" id="navbarToggleExternalContent">
+
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sobre nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contáctanos</a></li>
+          <li class="nav-item"><a class="nav-link disabled" tabindex="-1" aria-disabled="true" href="#">Más</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="dropdown" aria-haspopup="true"
+              aria-expanded="false">Ajustes</a>
+            <div class="dropdown-menu" role="menu">
+              <a class="dropdown-item" href="#">Acción</a>
+              <a class="dropdown-item" href="#">Otra Acción</a>
+              <a class="dropdown-item" href="#">Última acción</a>
+              <div class="dropdown-divider" role="none"></div>
+              <a class="dropdown-item" href="#">Link separado</a>
+            </div>
+          </li>
+          <!-- barra de búsqueda -->
+          <li>
+            <form role="form" class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Palabra clave..." aria-label="Buscar">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+          </li>
+        </ul>
+
+      </div>
+
+    </nav>
+  </div>
+  <!-- slider -->
+  <div id="slides" role="presentation" class="carousel slide" data-ride="carousel">
+    <!-- carousel indicators -->
+    <div role="presentation" id="my-carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#my-carousel" data-slide-to="0" aria-current="location"></li>
+        <li data-target="#my-carousel" data-slide-to="1"></li>
+        <li data-target="#my-carousel" data-slide-to="2"></li>
+      </ol>
+      <section class="carousel-inner">
+
+        <section class="carousel-item active">
+          <img class="d-block w-100" src="/imagenes/background.png" alt="Encuentra nuevo contenido">
+          <article class="carousel-caption d-none d-md-block">
+            <h2 class="display-2">Título 1</h2>
+            <p>Texto descriptivo acerca de la imagen.</p>
+          </article>
+        </section>
+        <section class="carousel-item">
+          <img class="d-block w-100" src="/imagenes/background2.png" alt="Ultimas noticias">
+          <article class="carousel-caption d-none d-md-block">
+            <h2 class="display-2">Título 2</h2>
+            <p>Esto es otro texto de prueba para el segundo carusel.</p>
+          </article>
+        </section>
+        <section class="carousel-item">
+          <img class="d-block w-100" src="/imagenes/background3.png" alt="Más información">
+          <article class="carousel-caption d-none d-md-block">
+            <h2 class="display-2">Título 3</h2>
+            <p>Esto es otro texto de prueba para el segundo carusel.</p>
+          </article>
+        </section>
+
+      </section>
+    </div>
+  </div>
+
+  <!-- main content -->
+  <main aria-label="Contenido" role="main" id="cuerpo">
+    <h1>Discipulado</h1>
+    <div role="region" class="container px-lg-5">
+
+      <div role="region" class="row mx-lg-n5">
+        <section class="col-lg col-md py-3 px-lg-3 border bg-light">
+          <h2>¿Qué es?</h2>
+          <p>Respuesta: Por definición, un discípulo es un seguidor, uno que acepta y colabora en la difusión de las
+            doctrinas de otro. Un discípulo cristiano es una persona que acepta y colabora en la difusión de las buenas
+            nuevas de Jesucristo. El discipulado cristiano es el proceso mediante el cual los discípulos crecen en el
+          </p>
+        </section>
+
+        <section class="col-lg col-md py-3 px-lg-3 border bg-light">
+          <h2>Titulo 2</h2>
+          <p>a la invitación del Espíritu Santo para examinar sus pensamientos, palabras y
+            acciones, y que las comparen con la palabra de Dios. Esto requiere que estemos en la palabra diariamente,
+          </p>
+        </section>
+
+        <section class="col-lg py-3 px-lg-3 border bg-light">
+          <h2>Mas Info</h2>
+          <p>Respuesta: Por definición, un discípulo es un seguidor, uno que acepta y colabora en la difusión de las
+            doctrinas de.
+          </p>
+        </section>
+      </div>
+      <!-- contenedor 2 -->
+
+      <div role="region" class="row">
+
+        <section role="presentation" class="col-sm">
+          <h2>Imagen</h2>
+          <img src="/imagenes/Dove.png" width="50%" alt="">
+        </section>
+        <section class="col-sm">
+          <h2>Ultima sección</h2>
+          <p>1. Poner a Jesús en primer lugar en todas las cosas (Marcos 8:34-38). El discípulo de Cristo debe estar
+            apartado del mundo. Nuestra atención debe centrarse en nuestro Señor y satisfacerlo en todos los ámbitos de
+            nuestras vidas. Debemos dejar el egocentrismo y revestirnos de Cristo-centrismo.
+          </p>
+        </section>
+      </div>
+
+
+    </div>
+  </main>
+  <script>
+    console.log(document.body);
+  </script>
+
+  <br><br>
+  <!-- footer -->
+
+  <footer class="footer bg-dark justify-content" role="contentinfo">
+
+    <nav class="footer-nav container" aria-label="Pie de página">
+      <!-- content -->
+      <br>
+      <ul id="footericons" class="row footer-nav list-group list-group-horizontal-sm justify-content-center">
+        <li class="nav-item nav-link"><a href="#home"><img src="/imagenes/iconos/fb.png" alt="Facebook" width="30"></a>
+        </li>
+        <li class="nav-item nav-link"><a href="#home"><img src="/imagenes/iconos/yt.png" alt="Youtube" width="30"></a>
+        </li>
+        <li class="nav-item nav-link"><a href="#home"><img src="/imagenes/iconos/inst.png" alt="Instagram"
+              width="30"></a></li>
+      </ul>
+    </nav>
+    <section class="bg-dark">
+      Derechos Reservados
+    </section>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- For social media icons -->
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </body>
+
 </html>
