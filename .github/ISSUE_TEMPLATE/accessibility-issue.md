@@ -1,14 +1,14 @@
 ---
 name: Accessibility Issue
-about: Create a report to help us improve
-title: ''
+about: Create a report to help us fix accessibility issues.
+title: Name of element that is presenting the Accessibility Issue
 labels: ''
 assignees: ''
 
 ---
 
-**Element**
-Name the element that is presenting the issue.
+**Write the element name on the Title above**
+Name of element that is presenting the Accessibility Issue
 
 **Describe the issue**
 A clear and concise description of what the issue is.
